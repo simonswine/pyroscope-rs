@@ -53,7 +53,7 @@ jobs:
 
   linux-arm-build:
     name: Linux - arm64
-    runs-on: github-hosted-ubuntu-arm64
+    runs-on: ubuntu-24.04-arm
     steps:
       - uses: AutoModality/action-clean@v1
       - uses: actions/checkout@v4
